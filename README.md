@@ -1,4 +1,4 @@
-<a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
+<!-- <a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
 
 # Next.js 16 Developer Portfolio Template
 
@@ -146,4 +146,4 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)** -->
