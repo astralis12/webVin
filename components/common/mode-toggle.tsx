@@ -1,6 +1,7 @@
 "use client";
 
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
+import { useTheme } from "@teispace/next-themes";
 
 import { Icons } from "@/components/common/icons";
 import { Button } from "@/components/ui/button";

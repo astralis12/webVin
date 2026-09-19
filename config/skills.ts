@@ -1,160 +1,170 @@
-import { Icons } from "@/components/common/icons";
+import {
+  SiCplusplus,
+  SiPython,
+  SiArduino,
+  SiRaspberrypi,
+  SiLinux,
+  SiGit,
+  SiGoogle,
+  SiFigma,
+  SiC,
+} from "react-icons/si";
+import {
+  FaMicrochip,
+  FaMemory,
+  FaRobot,
+  FaCogs,
+  FaChartLine,
+  FaBrain,
+  FaMapMarkedAlt,
+  FaCubes,
+  FaRocket,
+  FaDraftingCompass,
+  FaFlask,
+  FaGraduationCap,
+} from "react-icons/fa";
+import type { IconType } from "react-icons";
 
 export interface skillsInterface {
   name: string;
   description: string;
   rating: number;
-  icon: any;
+  icon: IconType;
 }
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
+    name: "ESP32",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Designed and deployed ESP32-based on-board computers and embedded systems for CubeSat and robotics projects.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: FaMicrochip,
   },
   {
-    name: "React",
+    name: "Embedded C",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "Wrote firmware for microcontrollers across satellite, robotics, and instrumentation platforms.",
     rating: 5,
-    icon: Icons.react,
+    icon: SiC,
   },
   {
-    name: "GraphQL",
+    name: "C++",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "Built real-time and performance-critical applications for embedded targets and simulations.",
+    rating: 5,
+    icon: SiCplusplus,
+  },
+  {
+    name: "RTOS",
+    description:
+      "Implemented task scheduling, telemetry handling, and fault recovery in FreeRTOS-based systems.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: FaCogs,
   },
   {
-    name: "Nest.js",
+    name: "Python",
     description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+      "Analyzed 800,000+ telemetry data points, built ML models, and automated engineering workflows.",
+    rating: 5,
+    icon: SiPython,
+  },
+  {
+    name: "MATLAB",
+    description:
+      "Ran simulation-based verification across 120+ tests and 20 failure scenarios for UUV design.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: FaChartLine,
   },
   {
-    name: "express.js",
+    name: "Machine Learning",
     description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+      "Engineered classification and feature-extraction models for tea grading and battery health prediction.",
     rating: 4,
-    icon: Icons.html5,
+    icon: FaBrain,
   },
   {
-    name: "CSS 3",
+    name: "Altium",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "Designed PCBs for CubeSat OBC, semi-autonomous maintenance robots, and multi-sensor instrumentation boards.",
+    rating: 5,
+    icon: FaDraftingCompass,
+  },
+  {
+    name: "Solidworks",
+    description:
+      "Modeled mechanical subsystems for aerospace and robotics projects.",
     rating: 4,
-    icon: Icons.css3,
+    icon: FaCubes,
   },
   {
-    name: "React Native",
+    name: "Verilog",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+      "Wrote and simulated digital logic designs for coursework and embedded hardware projects.",
     rating: 3,
-    icon: Icons.angular,
+    icon: FaMemory,
   },
   {
-    name: "Redux",
+    name: "VHDL",
     description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+      "Designed and simulated digital systems at the register-transfer level.",
     rating: 3,
-    icon: Icons.socketio,
+    icon: FaMemory,
   },
   {
-    name: "Material UI",
+    name: "Robotics",
     description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
+      "Led development of semi-autonomous maintenance robots and 4-wheeled surveillance robots at PLN.",
     rating: 4,
-    icon: Icons.mui,
+    icon: FaRobot,
   },
-
   {
-    name: "Tailwind CSS",
+    name: "Aerospace Systems",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Led 12-engineer teams on rocket subsystems and satellite payloads for international competitions.",
     rating: 5,
-    icon: Icons.tailwindcss,
+    icon: FaRocket,
   },
   {
-    name: "AWS",
+    name: "Data Analysis",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Performed root-cause analysis and statistical evaluation on large telemetry datasets.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: FaChartLine,
+  },
+  {
+    name: "ArcGIS",
+    description:
+      "Used geospatial analysis and NDVI/DOM workflows for research and environmental data projects.",
+    rating: 3,
+    icon: FaMapMarkedAlt,
+  },
+  {
+    name: "Linux",
+    description:
+      "Comfortable with shell scripting, toolchains, and embedded development on Linux.",
+    rating: 4,
+    icon: SiLinux,
+  },
+  {
+    name: "Git",
+    description:
+      "Version control across hardware, firmware, and research projects.",
+    rating: 4,
+    icon: SiGit,
+  },
+  {
+    name: "Google Suite",
+    description:
+      "Documented engineering projects, ran research workflows, and coordinated teams.",
+    rating: 5,
+    icon: SiGoogle,
+  },
+  {
+    name: "Figma",
+    description:
+      "Designed UI/UX mockups for cross-platform instrumentation applications.",
+    rating: 3,
+    icon: SiFigma,
   },
 ];
 

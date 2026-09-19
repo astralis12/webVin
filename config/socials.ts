@@ -10,26 +10,20 @@ interface SocialInterface {
 export const SocialLinks: SocialInterface[] = [
   {
     name: "Github",
-    username: "@namanbarkiya",
+    username: "@astralis12",
     icon: Icons.gitHub,
-    link: "https://github.com/namanbarkiya",
+    link: "https://github.com/astralis12",
   },
   {
     name: "LinkedIn",
-    username: "Naman Barkiya",
+    username: "Aristo Davino",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
-  },
-  {
-    name: "Twitter",
-    username: "@namanbarkiya",
-    icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
+    link: "https://www.linkedin.com/in/aristo-davino-4562a3219/",
   },
   {
     name: "Gmail",
-    username: "naman.barkiya02",
+    username: "Aristo Davino",
     icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "mailto:albertusdavino@gmail.com",
   },
 ];

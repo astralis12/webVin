@@ -141,7 +141,6 @@ export default async function ExperienceDetailPage({
         <AnimatedSection className="mb-6">
           <Button variant="ghost" size="sm" className="mb-4" asChild>
             <Link href="/experience">
-              <Icons.chevronLeft className="mr-2 h-4 w-4" />
               Back to Experience
             </Link>
           </Button>

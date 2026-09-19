@@ -20,10 +20,10 @@ export const routesConfig: any = {
       title: "Blogs",
       href: "/blogs",
     },
-    {
-      title: "Community",
-      href: "/community",
-    },
+    // {
+    //   title: "Community",
+    //   href: "/community",
+    // },
     {
       title: "Contact",
       href: "/contact",
