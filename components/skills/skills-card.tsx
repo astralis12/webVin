@@ -20,7 +20,7 @@ export default function SkillsCard({ skills }: SkillsCardProps) {
               <p className="text-sm text-muted-foreground">
                 {skill.description}
               </p>
-              <Rating stars={skill.rating} />
+              {/* <Rating stars={skill.rating} /> */}
             </div>
           </div>
         </div>
